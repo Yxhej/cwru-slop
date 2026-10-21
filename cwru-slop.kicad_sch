@@ -8015,6 +8015,16 @@
 		)
 		(uuid "d066e58e-b6a0-44b7-8bbd-a0c48f146f28")
 	)
+	(text "1 -> 3,\n4 -> 6"
+		(exclude_from_sim no)
+		(at 96.266 67.818 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d1b2230f-8855-4a40-adc0-9f913ade1bdd")
+	)
 	(text "EEPROM\n"
 		(exclude_from_sim no)
 		(at 145.542 194.056 0)
@@ -8365,6 +8375,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 80.01) (xy 69.85 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0126ee0e-1b33-48f0-b018-0366c2d3fa23")
+	)
+	(wire
+		(pts
 			(xy 115.57 59.69) (xy 168.91 59.69)
 		)
 		(stroke
@@ -8665,17 +8685,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 106.68) (xy 77.47 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35eda12e-18b7-4c15-ba3e-7e3da3a75d29")
-	)
-	(wire
-		(pts
-			(xy 50.8 80.01) (xy 63.5 80.01)
+			(xy 50.8 80.01) (xy 69.85 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8702,16 +8712,6 @@
 			(type default)
 		)
 		(uuid "398093cb-b0e4-410a-b393-6a631e22c1b1")
-	)
-	(wire
-		(pts
-			(xy 67.31 87.63) (xy 67.31 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39f6fee5-6998-4f85-9e74-82dcbb611715")
 	)
 	(wire
 		(pts
@@ -9065,6 +9065,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 55.88) (xy 77.47 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733c74b3-d86e-4382-8f16-9c0c41141d50")
+	)
+	(wire
+		(pts
 			(xy 173.99 153.67) (xy 173.99 152.4)
 		)
 		(stroke
@@ -9195,6 +9205,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 87.63) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8605aed9-8841-4e39-841a-ce96908261ed")
+	)
+	(wire
+		(pts
 			(xy 257.81 116.84) (xy 264.16 116.84)
 		)
 		(stroke
@@ -9312,16 +9332,6 @@
 			(type default)
 		)
 		(uuid "a3bdaa49-67a3-4bbf-962f-4d2c1f708623")
-	)
-	(wire
-		(pts
-			(xy 67.31 55.88) (xy 77.47 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9097bc9-4de4-4dd7-b31e-84c1330c5f3f")
 	)
 	(wire
 		(pts
@@ -9605,16 +9615,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 80.01) (xy 63.5 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd218724-2267-4ba5-92b4-28ccce98ff88")
-	)
-	(wire
-		(pts
 			(xy 96.52 25.4) (xy 106.68 25.4)
 		)
 		(stroke
@@ -9742,6 +9742,16 @@
 			(type default)
 		)
 		(uuid "edb6b81d-8d2b-4d41-bd5f-fafd615bf566")
+	)
+	(wire
+		(pts
+			(xy 67.31 106.68) (xy 77.47 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee2ca3ac-1ee0-4721-8853-5746f19eae19")
 	)
 	(wire
 		(pts
@@ -9904,14 +9914,14 @@
 		(uuid "fe3d90e5-bf3d-49fd-8f3c-479dcbb3cd25")
 	)
 	(label "USB_DP"
-		(at 86.36 55.88 0)
+		(at 85.09 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0897892b-181d-4234-a5fa-aca52703457f")
+		(uuid "1e771d14-d3b9-4748-9ed6-ab66dbd7c09e")
 	)
 	(label "CAN_RXD"
 		(at 224.79 128.27 180)
@@ -10023,16 +10033,6 @@
 		)
 		(uuid "6ee288fe-dec6-438a-bc32-985e805a855f")
 	)
-	(label "USB_DN"
-		(at 86.36 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70a285ca-bc2d-422b-b8fc-53c96da45ed7")
-	)
 	(label "EEPROM_SDA"
 		(at 160.02 185.42 0)
 		(effects
@@ -10085,6 +10085,16 @@
 			(justify left bottom)
 		)
 		(uuid "afafd9fd-9ffc-4910-8f85-6b9e168321d5")
+	)
+	(label "USB_DN"
+		(at 86.36 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b49bd01f-ae83-4838-a618-742ed534afc6")
 	)
 	(label "ACCEL_SCL"
 		(at 191.77 104.14 0)
