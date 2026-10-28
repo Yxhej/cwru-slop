@@ -9627,6 +9627,10 @@
 		(uuid "3f9c73d7-cf14-45f3-aa9d-c2f77ac0378b")
 	)
 	(no_connect
+		(at 256.54 161.29)
+		(uuid "47471934-b8f5-4370-a0fa-a5ce7da3df53")
+	)
+	(no_connect
 		(at 226.06 161.29)
 		(uuid "4969e4a5-dddb-4089-a0f1-dd31bad4f8f6")
 	)
@@ -9677,6 +9681,10 @@
 	(no_connect
 		(at 226.06 143.51)
 		(uuid "ca3b81ff-d270-4013-85ad-700a05575c1c")
+	)
+	(no_connect
+		(at 177.8 153.67)
+		(uuid "d69de84d-b154-42b5-b920-72293ce1e8c2")
 	)
 	(no_connect
 		(at 113.03 138.43)
@@ -10101,16 +10109,6 @@
 			(type default)
 		)
 		(uuid "2f61b9af-9e49-4d93-9eda-0e07369247f4")
-	)
-	(wire
-		(pts
-			(xy 177.8 153.67) (xy 181.61 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fae704b-0dcc-496b-9e92-48d594c3ed20")
 	)
 	(wire
 		(pts
@@ -10901,16 +10899,6 @@
 			(type default)
 		)
 		(uuid "86886a46-17b9-4fa1-a820-a5de85bb6d18")
-	)
-	(wire
-		(pts
-			(xy 256.54 161.29) (xy 261.62 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87572042-d3fe-4a6e-a6e1-87c33a0e9423")
 	)
 	(wire
 		(pts
@@ -12302,16 +12290,6 @@
 		)
 		(uuid "9b532f3b-130f-40b0-b309-3f3cd3596595")
 	)
-	(label "JTDI"
-		(at 261.62 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a33b75c7-3390-43a0-9eb3-8a5e7fd76765")
-	)
 	(label "EEPROM_SCL"
 		(at 219.71 173.99 180)
 		(effects
@@ -12423,7 +12401,7 @@
 		(uuid "de4fef43-6987-4a38-aeec-80f78335bff6")
 	)
 	(label "SWO"
-		(at 179.07 153.67 0)
+		(at 179.07 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12501,16 +12479,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8c177d2-daa0-483b-af56-d81193d78262")
-	)
-	(label "JTDI"
-		(at 179.07 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fab6ded4-ef7d-4f6d-8c34-e82e115b2ae0")
 	)
 	(symbol
 		(lib_id "slopp:TLV9001IDCK")
