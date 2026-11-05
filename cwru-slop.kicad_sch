@@ -9041,8 +9041,8 @@
 		(uuid "110813a2-ca83-45d0-963b-6ab7ea051ea9")
 	)
 	(rectangle
-		(start 215.9 207.645)
-		(end 273.685 231.775)
+		(start 217.17 206.375)
+		(end 274.955 230.505)
 		(stroke
 			(width 0)
 			(type default)
@@ -9210,9 +9210,9 @@
 		)
 		(uuid "6426e120-8b57-46b3-9182-bd47b3fa27d2")
 	)
-	(text "Drop to max of 2V5\n"
+	(text "Drop to max of 2V5 (~1060hz cutoff)\n"
 		(exclude_from_sim no)
-		(at 121.158 263.144 0)
+		(at 115.316 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9302,7 +9302,7 @@
 	)
 	(text "EEPROM\n"
 		(exclude_from_sim no)
-		(at 263.144 229.108 0)
+		(at 264.414 227.838 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -9381,7 +9381,7 @@
 		(uuid "1dc28d4c-241f-49e4-98af-ad3cf5e6f598")
 	)
 	(junction
-		(at 226.06 223.52)
+		(at 227.33 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25ae262f-5ba2-41ab-ad84-0c089d0a48bd")
@@ -10020,7 +10020,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 223.52) (xy 226.06 224.79)
+			(xy 227.33 222.25) (xy 227.33 223.52)
 		)
 		(stroke
 			(width 0)
@@ -10320,7 +10320,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 222.25) (xy 256.54 222.25)
+			(xy 254 220.98) (xy 257.81 220.98)
 		)
 		(stroke
 			(width 0)
@@ -10660,7 +10660,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 219.71) (xy 256.54 219.71)
+			(xy 254 218.44) (xy 257.81 218.44)
 		)
 		(stroke
 			(width 0)
@@ -11100,7 +11100,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 217.17) (xy 226.06 218.44)
+			(xy 227.33 215.9) (xy 227.33 217.17)
 		)
 		(stroke
 			(width 0)
@@ -12100,7 +12100,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 220.98) (xy 226.06 223.52)
+			(xy 227.33 219.71) (xy 227.33 222.25)
 		)
 		(stroke
 			(width 0)
@@ -12439,7 +12439,7 @@
 		(uuid "86b0c5b5-2311-416e-9ab3-8efe40e34269")
 	)
 	(label "SDA"
-		(at 256.54 222.25 0)
+		(at 257.81 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12489,7 +12489,7 @@
 		(uuid "a9df0566-1925-4010-a36e-6a264e8d738b")
 	)
 	(label "SCL"
-		(at 256.54 219.71 0)
+		(at 257.81 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15123,7 +15123,7 @@
 	)
 	(symbol
 		(lib_id "slopp:24lc32at-i_ot")
-		(at 212.09 220.98 0)
+		(at 213.36 219.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15134,7 +15134,7 @@
 		(fields_autoplaced yes)
 		(uuid "338e86b3-5fb2-4784-aed1-d6cd9fd37e4f")
 		(property "Reference" "U9"
-			(at 240.03 210.82 0)
+			(at 241.3 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15144,7 +15144,7 @@
 			)
 		)
 		(property "Value" "24lc32at-i/ot"
-			(at 240.03 213.36 0)
+			(at 241.3 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15154,7 +15154,7 @@
 			)
 		)
 		(property "Footprint" "SYS27_Footprints:SOT-24-5_MC_MCH"
-			(at 240.03 220.98 0)
+			(at 241.3 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15166,7 +15166,7 @@
 			)
 		)
 		(property "Datasheet" "24lc32at-i/ot"
-			(at 226.06 218.44 0)
+			(at 227.33 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15178,7 +15178,7 @@
 			)
 		)
 		(property "Description" "EEPROM"
-			(at 226.06 218.44 0)
+			(at 227.33 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19213,7 +19213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 226.06 224.79 0)
+		(at 227.33 223.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19223,7 +19223,7 @@
 		(dnp no)
 		(uuid "ab1fb72f-8f06-4466-86ef-725a85b73f2e")
 		(property "Reference" "#PWR035"
-			(at 226.06 231.14 0)
+			(at 227.33 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19234,7 +19234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 229.362 0)
+			(at 227.33 228.092 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19244,7 +19244,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 224.79 0)
+			(at 227.33 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19255,7 +19255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 224.79 0)
+			(at 227.33 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19266,7 +19266,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 224.79 0)
+			(at 227.33 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20801,7 +20801,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 217.17 0)
+		(at 227.33 215.9 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20812,7 +20812,7 @@
 		(dnp no)
 		(uuid "d30f9d98-3f1a-4ed0-8bba-13f013eeb7ea")
 		(property "Reference" "#PWR034"
-			(at 226.06 220.98 0)
+			(at 227.33 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20823,7 +20823,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 225.806 213.614 0)
+			(at 227.076 212.344 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20833,7 +20833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 217.17 0)
+			(at 227.33 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20844,7 +20844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 217.17 0)
+			(at 227.33 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20855,7 +20855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 217.17 0)
+			(at 227.33 215.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
