@@ -9765,10 +9765,6 @@
 		(uuid "6a51d850-ebd6-4778-a606-9a24001fed11")
 	)
 	(no_connect
-		(at 256.54 138.43)
-		(uuid "6bd90ef8-78c2-4706-9342-8dba71723781")
-	)
-	(no_connect
 		(at 226.06 148.59)
 		(uuid "76ff4d05-2057-4a5c-86b9-cb4cff51f1eb")
 	)
@@ -9789,8 +9785,8 @@
 		(uuid "8c1b93dc-c2cb-4a16-9a86-aa5cf7948b82")
 	)
 	(no_connect
-		(at 226.06 151.13)
-		(uuid "be85d867-96bb-4130-8253-b3f0393d12c1")
+		(at 256.54 133.35)
+		(uuid "a0e61d85-c18d-4834-ae9a-9d2b54e7316a")
 	)
 	(no_connect
 		(at 226.06 138.43)
@@ -9799,6 +9795,10 @@
 	(no_connect
 		(at 226.06 143.51)
 		(uuid "ca3b81ff-d270-4013-85ad-700a05575c1c")
+	)
+	(no_connect
+		(at 256.54 135.89)
+		(uuid "d67d3207-7eda-4bb7-b83c-57b54f7a4ca1")
 	)
 	(no_connect
 		(at 177.8 153.67)
@@ -10800,6 +10800,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 138.43) (xy 261.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e062bf3-2c3f-4719-966b-885416106a4c")
+	)
+	(wire
+		(pts
 			(xy 129.54 255.27) (xy 129.54 242.57)
 		)
 		(stroke
@@ -10967,6 +10977,16 @@
 			(type default)
 		)
 		(uuid "7a9f87b1-20b5-47b5-9c18-955c39f3f0e8")
+	)
+	(wire
+		(pts
+			(xy 219.71 151.13) (xy 226.06 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b3a7cb3-a0ae-4c0d-8f1d-688eaa223810")
 	)
 	(wire
 		(pts
@@ -11377,16 +11397,6 @@
 			(type default)
 		)
 		(uuid "a2103712-f4a8-41bf-9667-9b7b4131e7e1")
-	)
-	(wire
-		(pts
-			(xy 261.62 135.89) (xy 256.54 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2dcd89a-6e90-4c69-8a2f-d43c6c96d7db")
 	)
 	(wire
 		(pts
@@ -11990,16 +12000,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 133.35) (xy 256.54 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2b7a50d-9128-47ab-ade7-a0c801f5888c")
-	)
-	(wire
-		(pts
 			(xy 223.52 118.11) (xy 223.52 123.19)
 		)
 		(stroke
@@ -12409,7 +12409,7 @@
 		(uuid "67eddf43-08c3-4f3e-9669-bc9d77c23250")
 	)
 	(label "ADCIN2"
-		(at 261.62 133.35 0)
+		(at 261.62 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12589,12 +12589,12 @@
 		(uuid "decb3e64-e910-4e31-bb8d-aa3d7d4acf89")
 	)
 	(label "ADCIN3"
-		(at 261.62 135.89 0)
+		(at 219.71 151.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e262d820-2fad-4f00-a809-3e7df57ef193")
 	)
@@ -17250,7 +17250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 81.28 212.09 0)
 			(hide yes)
 			(show_name no)
