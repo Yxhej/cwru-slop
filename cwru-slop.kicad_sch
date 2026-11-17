@@ -10840,7 +10840,7 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 160.02) (xy 300.99 160.02)
+			(xy 299.72 160.02) (xy 300.99 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10990,7 +10990,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 146.05) (xy 181.61 146.05)
+			(xy 177.8 146.05) (xy 179.07 146.05)
 		)
 		(stroke
 			(width 0)
@@ -11017,6 +11017,16 @@
 			(type default)
 		)
 		(uuid "7e2ac53d-de15-42dd-977e-c3c8cad1babd")
+	)
+	(wire
+		(pts
+			(xy 299.72 162.56) (xy 300.99 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ef4cd39-bc5d-4712-ad11-1f768305b89d")
 	)
 	(wire
 		(pts
@@ -11470,7 +11480,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 156.21) (xy 181.61 156.21)
+			(xy 177.8 156.21) (xy 179.07 156.21)
 		)
 		(stroke
 			(width 0)
@@ -11497,16 +11507,6 @@
 			(type default)
 		)
 		(uuid "ad9af2a5-c29e-473d-9257-bd9f54d768b9")
-	)
-	(wire
-		(pts
-			(xy 293.37 162.56) (xy 300.99 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adeb56be-ab84-4033-8728-02a5e6b7a146")
 	)
 	(wire
 		(pts
@@ -11670,7 +11670,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 148.59) (xy 181.61 148.59)
+			(xy 177.8 148.59) (xy 179.07 148.59)
 		)
 		(stroke
 			(width 0)
@@ -11800,7 +11800,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 151.13) (xy 181.61 151.13)
+			(xy 177.8 151.13) (xy 179.07 151.13)
 		)
 		(stroke
 			(width 0)
@@ -12648,7 +12648,7 @@
 		)
 		(uuid "f097d4b0-6627-42b7-b908-44192c97f0c0")
 	)
-	(label "NRST"
+	(label "RESET"
 		(at 179.07 156.21 0)
 		(effects
 			(font
