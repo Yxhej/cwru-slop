@@ -9430,12 +9430,6 @@
 		(uuid "e63964d0-5271-433e-9248-54a0555cde69")
 	)
 	(junction
-		(at 327.66 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "046100ee-e268-4d12-8e4d-ee383dc0ddb5")
-	)
-	(junction
 		(at 241.3 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9544,6 +9538,12 @@
 		(uuid "4081d699-add3-414f-bf4b-5566a45a54f7")
 	)
 	(junction
+		(at 327.66 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "444602f4-8f9d-4bc0-acc0-0556e86c5af1")
+	)
+	(junction
 		(at 356.87 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9614,6 +9614,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7143fc10-1812-4b84-ac58-410c4fdd6c1c")
+	)
+	(junction
+		(at 356.87 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71fba891-42ba-4b4c-8c65-37ddb291ceca")
 	)
 	(junction
 		(at 278.13 102.87)
@@ -9746,12 +9752,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbde2b96-ca27-44b2-82b6-a6f42782aaec")
-	)
-	(junction
-		(at 356.87 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c00ad97a-683e-494f-8ef2-b778b1416bbf")
 	)
 	(junction
 		(at 215.9 36.83)
@@ -11689,6 +11689,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 157.48) (xy 327.66 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6cae7ee-ab5c-4fd4-b43a-c2ebfb07c3e5")
+	)
+	(wire
+		(pts
 			(xy 356.87 160.02) (xy 356.87 162.56)
 		)
 		(stroke
@@ -12236,16 +12246,6 @@
 			(type default)
 		)
 		(uuid "f34ca4cb-cd84-4079-95d3-114c06453d88")
-	)
-	(wire
-		(pts
-			(xy 327.66 157.48) (xy 356.87 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f39c50db-7203-4f73-bfd1-fb0d20e91cd6")
 	)
 	(wire
 		(pts
@@ -19012,6 +19012,7 @@
 	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 220.98 252.73 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19019,10 +19020,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b66b344-ae8e-4fce-9ac9-083e032a3b69")
 		(property "Reference" "H4"
-			(at 223.52 251.4599 0)
+			(at 218.44 251.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19033,7 +19033,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 223.52 253.9999 0)
+			(at 218.44 253.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
