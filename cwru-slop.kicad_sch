@@ -12387,7 +12387,7 @@
 		)
 		(uuid "2383694e-14e6-49f4-89b5-9305ad41c0df")
 	)
-	(label "CAN_RXD"
+	(label "CAN+"
 		(at 299.72 160.02 180)
 		(effects
 			(font
@@ -12417,6 +12417,16 @@
 		)
 		(uuid "2b3ff397-42be-4a69-8ca8-d66d23ae5cb6")
 	)
+	(label "BUS_CAN-"
+		(at 336.55 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40db4b62-1522-4047-9a23-ac3c2ad9aa74")
+	)
 	(label "ADCIN2"
 		(at 154.94 222.25 0)
 		(effects
@@ -12436,6 +12446,16 @@
 			(justify right bottom)
 		)
 		(uuid "4860d2ad-4c59-4a22-9e6c-8f7df6c77255")
+	)
+	(label "BUS_CAN+"
+		(at 336.55 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c1115bd-c463-4cf5-ab92-6c2e67d43b85")
 	)
 	(label "RGB_G"
 		(at 336.55 109.22 0)
@@ -12637,7 +12657,7 @@
 		)
 		(uuid "b7627b6e-94c1-40b9-9d7c-9f1e4298e707")
 	)
-	(label "CAN_TXD"
+	(label "CAN-"
 		(at 299.72 162.56 180)
 		(effects
 			(font
@@ -12647,7 +12667,7 @@
 		)
 		(uuid "cc593b64-9d9c-4b41-91d0-930a84d30b25")
 	)
-	(label "CAN_RXD"
+	(label "CAN+"
 		(at 219.71 168.91 180)
 		(effects
 			(font
@@ -12737,7 +12757,7 @@
 		)
 		(uuid "ef5a16d6-bc9c-4cec-9b97-9a4206c78e31")
 	)
-	(label "CAN_TXD"
+	(label "CAN-"
 		(at 219.71 171.45 180)
 		(effects
 			(font
