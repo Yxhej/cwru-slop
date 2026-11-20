@@ -9676,6 +9676,12 @@
 		(uuid "91fcc89b-811b-4aa0-b546-a89c85322057")
 	)
 	(junction
+		(at 130.81 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "921fee88-efbd-4a87-b551-5bac68d091f3")
+	)
+	(junction
 		(at 209.55 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10399,7 +10405,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 67.31) (xy 144.78 67.31)
+			(xy 125.73 67.31) (xy 130.81 67.31)
 		)
 		(stroke
 			(width 0)
@@ -10606,6 +10612,16 @@
 			(type default)
 		)
 		(uuid "4fa25048-01c8-4e64-8096-45657ecd0960")
+	)
+	(wire
+		(pts
+			(xy 130.81 67.31) (xy 144.78 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e4c6d6-2b20-4495-ab17-196467ac6fb0")
 	)
 	(wire
 		(pts
@@ -11709,6 +11725,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 69.85) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d2f2d5-9809-4b38-ae39-4557b949b4ce")
+	)
+	(wire
+		(pts
 			(xy 356.87 157.48) (xy 363.22 157.48)
 		)
 		(stroke
@@ -12457,7 +12483,7 @@
 		)
 		(uuid "4c1115bd-c463-4cf5-ab92-6c2e67d43b85")
 	)
-	(label "RGB_G"
+	(label "RGB_R"
 		(at 336.55 109.22 0)
 		(effects
 			(font
@@ -12517,7 +12543,7 @@
 		)
 		(uuid "64f9dae0-4330-4497-ab8d-3cb86c4a8d2b")
 	)
-	(label "RGB_G"
+	(label "RGB_B"
 		(at 223.52 181.61 180)
 		(effects
 			(font
@@ -12536,6 +12562,16 @@
 			(justify left bottom)
 		)
 		(uuid "6c3563a1-9db0-4918-b450-37c5b55959af")
+	)
+	(label "USB_ESD_DP"
+		(at 130.81 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e51123b-1f22-4585-b9b8-3db145e29864")
 	)
 	(label "SDA"
 		(at 190.5 176.53 180)
@@ -12657,6 +12693,16 @@
 		)
 		(uuid "b7627b6e-94c1-40b9-9d7c-9f1e4298e707")
 	)
+	(label "USB_ESD_DN"
+		(at 130.81 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd218261-982c-4a9f-97d7-bdcffbc8d3d3")
+	)
 	(label "CAN-"
 		(at 299.72 162.56 180)
 		(effects
@@ -12677,7 +12723,7 @@
 		)
 		(uuid "d0a31b2b-787e-414a-9b33-de4ff8008f48")
 	)
-	(label "RGB_R"
+	(label "RGB_G"
 		(at 336.55 114.3 0)
 		(effects
 			(font
@@ -12717,7 +12763,7 @@
 		)
 		(uuid "e262d820-2fad-4f00-a809-3e7df57ef193")
 	)
-	(label "RGB_B"
+	(label "RGB_G"
 		(at 223.52 186.69 180)
 		(effects
 			(font
@@ -17197,7 +17243,7 @@
 				)
 			)
 		)
-		(property "Value" "180"
+		(property "Value" "270"
 			(at 331.724 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21899,7 +21945,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "180"
 			(at 331.724 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
