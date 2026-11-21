@@ -83,31 +83,11 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|162398401|117091900|918e06d7-f128-452a-b127-dd546b9dfdbf|cd551012-fbae-472c-9c3d-4f5ba2b7de16",
-          ""
-        ],
-        [
           "clearance|162398401|118946100|59c62b2f-efea-4b68-a9c3-238dc818d119|401ddaca-60cd-45e2-8f22-e957a790ddbd",
           ""
         ],
         [
-          "clearance|162601601|117091900|918e06d7-f128-452a-b127-dd546b9dfdbf|7a7b12d2-714e-498c-8de9-750eb43ef747",
-          ""
-        ],
-        [
           "clearance|162601601|118946100|59c62b2f-efea-4b68-a9c3-238dc818d119|adda86a6-9aa4-4b82-99bb-1452768a1080",
-          ""
-        ],
-        [
-          "clearance|163198399|117091900|5445f6f7-b697-41cb-9c0d-54fa4a207f93|7a7b12d2-714e-498c-8de9-750eb43ef747",
-          ""
-        ],
-        [
-          "clearance|163198399|118946100|3ce757ad-5368-4fa1-a90c-398f496b6969|adda86a6-9aa4-4b82-99bb-1452768a1080",
-          ""
-        ],
-        [
-          "clearance|163401599|117091900|5445f6f7-b697-41cb-9c0d-54fa4a207f93|0c2cde54-8119-495a-bd61-6857c81a1a04",
           ""
         ],
         [
@@ -216,7 +196,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
